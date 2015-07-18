@@ -4,11 +4,11 @@ import android.app.Activity;
 import android.os.Bundle;
 
 import com.example.att.R;
-import com.example.att.view.LineView;
+import com.example.att.view.LineGraph;
 
 public class MainActivity extends Activity {
 
-    private LineView mLineView;
+    private LineGraph mLineView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,10 +18,11 @@ public class MainActivity extends Activity {
     }
 
     private void initView() {
-        mLineView = (LineView) findViewById(R.id.linegraph);
+        mLineView = (LineGraph) findViewById(R.id.linegraph);
         mLineView.addLine(45f);
         mLineView.addLine(150f);
         mLineView.addLine(250f);
+        mLineView.setLineNums(6);
     }
 
 }

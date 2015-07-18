@@ -30,7 +30,8 @@ containing a value of this type.
         public static final int text_size=0x7f010000;
     }
     public static final class color {
-        public static final int linegraph_text_color=0x7f040001;
+        public static final int gray=0x7f040001;
+        public static final int linegraph_text_color=0x7f040002;
         public static final int red=0x7f040000;
     }
     public static final class dimen {
@@ -51,7 +52,8 @@ containing a value of this type.
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int linegraph=0x7f070000;
+        public static final int button=0x7f070000;
+        public static final int linegraph=0x7f070001;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;

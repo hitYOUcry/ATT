@@ -6,11 +6,20 @@
     android:background="@android:color/background_light"
     tools:context="com.example.att.activity.MainActivity" >
 
-    <com.example.att.view.LineView
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="texff" />
+
+    <com.example.att.view.LineGraph
         android:id="@+id/linegraph"
         android:layout_width="match_parent"
         android:layout_height="200dip"
-        widget:text_color="@color/red"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        widget:text_color="@color/gray"
         widget:text_size="10sp" />
 
 </RelativeLayout>

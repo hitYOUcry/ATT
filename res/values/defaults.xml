@@ -3,5 +3,6 @@
 
     <!-- LineGraph Defaults -->
     <dimen name="linegraph_text_size">15sp</dimen>
+    <color name="linegraph_text_color">#555</color>
 
 </resources>
